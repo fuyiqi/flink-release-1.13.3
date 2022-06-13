@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="TaskManagerRunner(运行ExecutionGraph的子任务)" type="Application" factoryName="Application">
+  <configuration default="false" name="taskManagerRunner(运行ExecutionGraph的子任务)" type="Application" factoryName="Application">
     <option name="MAIN_CLASS_NAME" value="org.apache.flink.runtime.taskexecutor.TaskManagerRunner" />
     <module name="flink-runtime_2.11" />
     <option name="PROGRAM_PARAMETERS" value="--configDir $PROJECT_DIR$/build-target/conf" />
