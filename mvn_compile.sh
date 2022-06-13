@@ -1,0 +1,1 @@
+mvn install -T 2C -Dfast -Dmaven.compile.fork=true -DskipTests -Dscala-2.11 -Drat.skip=true -Dmaven.javadoc.skip=true -Dcheckstyle.skip=true -Dskip.npm

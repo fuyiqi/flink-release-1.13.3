@@ -80,6 +80,14 @@
 			<fileMode>0644</fileMode>
 		</file>
 
+		<!--add kafka metrics reporter-->
+		<file>
+			<source>../flink-metrics/flink-metrics-kafka/target/flink-metrics-kafka-${project.version}.jar</source>
+			<outputDirectory>plugins/metrics-kafka/</outputDirectory>
+			<destName>flink-metrics-kafka-${project.version}.jar</destName>
+			<fileMode>0644</fileMode>
+		</file>
+
 		<!-- External Resource -->
 		<file>
 			<source>../flink-external-resources/flink-external-resource-gpu/target/flink-external-resource-gpu-${project.version}.jar</source>
